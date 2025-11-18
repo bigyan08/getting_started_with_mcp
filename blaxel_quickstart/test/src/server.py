@@ -6,6 +6,7 @@ Run from the repository root:
 import os
 from mcp.server.fastmcp import FastMCP
 from memory import add_note, search_memory, summarize_recent, list_notes
+from web_ingest import ingest_url
 
 # Stateful server (maintains session state)
 # Does not work in Blaxel's playground
@@ -49,6 +50,9 @@ def summarize_tool():
 def list_note_tool():
     return list_notes()
 
+@mcp.tool()
+def web_ingestion_tool(url):
+    return ingest_url(url)
 # Run server with streamable_http transport
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")

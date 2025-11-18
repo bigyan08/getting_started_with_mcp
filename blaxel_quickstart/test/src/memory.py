@@ -40,3 +40,7 @@ def summarize_recent():
     combined_docs = "\n".join(docs)
     summarized_content = call_llm(f"Summarize these notes:{combined_docs}")
     return summarized_content
+
+def summarize(text:str):
+    summary = call_llm(f"Summarize this text:{text}")
+    return summary
