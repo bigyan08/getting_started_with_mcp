@@ -9,3 +9,7 @@ data/
 # Virtual environments
 .venv
 uv.lock
+.env
+chroma_langchain_db/
+chorma_db/
+faiss_index/
