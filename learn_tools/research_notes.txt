@@ -1,0 +1,6 @@
+
+
+--- NOTE ---
+TAGS: AI, Python
+CONTENT: LangGraph is a library for building stateful, multi-agent applications in Python. It extends the LangChain Expression Language (LCEL) to enable the creation of complex agentic workflows with cycles.
+------------
