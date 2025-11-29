@@ -4,3 +4,8 @@
 TAGS: AI, Python
 CONTENT: LangGraph is a library for building stateful, multi-agent applications in Python. It extends the LangChain Expression Language (LCEL) to enable the creation of complex agentic workflows with cycles.
 ------------
+
+--- NOTE ---
+TAGS: AI, Python
+CONTENT: LangChain is an open-source framework that simplifies building applications with large language models (LLMs). It provides tools and components to connect LLMs with various data sources, enabling the creation of complex, multi-step workflows. It allows developers to define sequences of actions for their applications to handle user requests and generate responses. Available in Python and JavaScript, LangChain helps developers enhance LLM capabilities by linking them to external data and computation, facilitating advanced AI applications like intelligent chatbots and question-answering systems.
+------------
