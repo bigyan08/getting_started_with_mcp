@@ -3,3 +3,6 @@ langchain-mcp-adapters
 mcp
 langgraph
 langchain
+langgraph-cli[inmem]
+langchain-tavily
+langgraph-api
