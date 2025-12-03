@@ -13,3 +13,4 @@ uv.lock
 chroma_langchain_db/
 chorma_db/
 faiss_index/
+.langgraph_api/
